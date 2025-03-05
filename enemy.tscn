@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=3 uid="uid://c1l03wm1kf6tv"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_k1buv"]
+[ext_resource type="Texture2D" uid="uid://cokk1jlalig87" path="res://pixel ghost-1.png (1).png" id="2_yhu5q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pqhod"]
+size = Vector2(74.4324, 147.27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i7xbr"]
+size = Vector2(61.3784, 54.7973)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y87jh"]
+size = Vector2(28.9189, 56.7568)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r1ofa"]
+size = Vector2(20.8108, 135.135)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ytu3w"]
+radius = 94.5946
+
+[node name="Enemy" type="CharacterBody2D"]
+scale = Vector2(0.37, 0.37)
+script = ExtResource("1_k1buv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.36, 0.36)
+texture = ExtResource("2_yhu5q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.78378, 3.36486)
+shape = SubResource("RectangleShape2D_pqhod")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-47.6892, -13.1419)
+shape = SubResource("RectangleShape2D_i7xbr")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(-50.4054, 39.1892)
+shape = SubResource("RectangleShape2D_y87jh")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(43.6486, 13.5135)
+shape = SubResource("RectangleShape2D_r1ofa")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(5, 7.5)
+shape = SubResource("RectangleShape2D_pqhod")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-45, -11.7432)
+shape = SubResource("RectangleShape2D_i7xbr")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-50.4054, 39.1892)
+shape = SubResource("RectangleShape2D_y87jh")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(43.6486, 13.5135)
+shape = SubResource("RectangleShape2D_r1ofa")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
+light_mask = 524288
+visibility_layer = 524289
+shape = SubResource("CircleShape2D_ytu3w")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

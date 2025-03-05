@@ -1,0 +1,174 @@
+[gd_scene load_steps=10 format=3 uid="uid://dc7ut7munttlm"]
+
+[ext_resource type="Texture2D" uid="uid://cwfpqsxtwyntt" path="res://Fine Draw.png" id="2_v1pte"]
+[ext_resource type="PackedScene" uid="uid://gh8lr7ckner2" path="res://ball.tscn" id="3_1jnty"]
+[ext_resource type="PackedScene" uid="uid://bxp8ifv11irbj" path="res://Player.tscn" id="3_p3u4p"]
+[ext_resource type="Script" path="res://ProceduralScenes/Score.gd" id="4_muo70"]
+[ext_resource type="PackedScene" uid="uid://c1l03wm1kf6tv" path="res://enemy.tscn" id="4_qurwo"]
+[ext_resource type="PackedScene" uid="uid://cnxjxs74ww6y0" path="res://level.tscn" id="5_cxxxd"]
+
+[sub_resource type="GDScript" id="GDScript_dqv0s"]
+script/source = "extends Node2D 
+var nextscene = 0
+func ItsUsed (integer:int):
+	var aux = false
+	var index = 0
+	while index < len(Singleton.UsedLevels) and aux ==false:
+		aux = integer == (Singleton.UsedLevels[index])
+		index+=1
+	return aux
+func nswitchscene():
+	if Singleton.number  % 5 == 0 and Singleton.number !=1:
+		get_tree().change_scene_to_file (\"res://ability_scene.tscn\")
+	else:
+		randomize()
+		nextscene = randi_range(23,33)
+		while ItsUsed(nextscene):
+			randomize()
+			nextscene = randi_range(23,33)
+		Singleton.UsedLevels.append(nextscene)
+		get_tree().change_scene_to_file(\"res://ProceduralScenes/scene\"+str(nextscene)+\".tscn\")
+		Singleton.habserviceuse = true
+func _physics_process(delta):
+	if get_tree().get_nodes_in_group(\"ENEMIES\").size() == 0:
+		Singleton.activation = false
+		nswitchscene()
+"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r3u7l"]
+texture = ExtResource("2_v1pte")
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 4, -8, 4, -8, 5, 8, 5)
+1:0/0/physics_layer_0/polygon_0/one_way_margin = 0.1
+2:0/0 = 0
+2:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:0/0/physics_layer_0/angular_velocity = 0.0
+3:0/0 = 0
+3:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:0/0/physics_layer_0/angular_velocity = 0.0
+4:0/0 = 0
+4:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:0/0/physics_layer_0/angular_velocity = 0.0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 4, 1, 4, 1, 5, -8, 5)
+4:0/0/physics_layer_0/polygon_1/points = PackedVector2Array(1, 8, 0, 8, 0, 4, 1, 4, 1, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(6, -8, 7, -8, 7, 8, 6, 8)
+4:1/0 = 0
+4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:1/0/physics_layer_0/angular_velocity = 0.0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(1, -8, 0, -8, 0, 8, 1, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:2/0/physics_layer_0/angular_velocity = 0.0
+4:2/0 = 0
+4:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:2/0/physics_layer_0/angular_velocity = 0.0
+0:3/0 = 0
+0:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:3/0/physics_layer_0/angular_velocity = 0.0
+4:3/0 = 0
+4:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:3/0/physics_layer_0/angular_velocity = 0.0
+0:4/0 = 0
+0:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:4/0/physics_layer_0/angular_velocity = 0.0
+4:4/0 = 0
+4:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:4/0/physics_layer_0/angular_velocity = 0.0
+0:5/0 = 0
+0:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:5/0/physics_layer_0/angular_velocity = 0.0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(7, -8, 6, -8, 6, 3, 6, 3, 7, 3)
+0:5/0/physics_layer_0/polygon_1/points = PackedVector2Array(8, 2, 8, 2, 8, 3, 6, 3, 6, 2)
+1:5/0 = 0
+1:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:5/0/physics_layer_0/angular_velocity = 0.0
+1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 2, -8, 3, 8, 3, 8, 2, 8, 2, -8, 2)
+2:5/0 = 0
+2:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:5/0/physics_layer_0/angular_velocity = 0.0
+3:5/0 = 0
+3:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:5/0/physics_layer_0/angular_velocity = 0.0
+4:5/0 = 0
+4:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:5/0/physics_layer_0/angular_velocity = 0.0
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 2, -8, 3, 1, 3, 1, 2, -8, 2)
+4:5/0/physics_layer_0/polygon_1/points = PackedVector2Array(1, -8, 0, -8, 0, 3, 1, 3, 1, -8)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(6, 4, 6, 8, 7, 8, 7, 4)
+0:0/0/physics_layer_0/polygon_1/points = PackedVector2Array(7, 5, 7, 4, 8, 4, 8, 5, 8, 4, 8, 5, 7, 5)
+3:3/0 = 0
+3:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:3/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSet" id="TileSet_3fokx"]
+physics_layer_0/collision_layer = 3
+physics_layer_0/collision_mask = 3
+sources/0 = SubResource("TileSetAtlasSource_r3u7l")
+
+[node name="Board" type="Node2D"]
+script = SubResource("GDScript_dqv0s")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_p3u4p")]
+position = Vector2(330, 421)
+scale = Vector2(2.14, 2.14)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+
+[node name="TileMap" type="TileMap" parent="."]
+rotation = 6.28319
+scale = Vector2(6.735, 6.735)
+tile_set = SubResource("TileSet_3fokx")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114145, 0, 0, 1441838, 0, 0, 1900599, 0, 0, 2162751, 0, 0, 2424900, 0, 0, 65537, 0, 0, 131073, 0, 1, 196609, 0, 1, 262145, 0, 1, 327681, 0, 5, 327682, 65536, 5, 327683, 65536, 5, 327684, 65536, 5, 327685, 65536, 5, 327686, 65536, 5, 327687, 65536, 5, 327688, 65536, 5, 327689, 262144, 5, 262153, 262144, 1, 196617, 262144, 1, 131081, 262144, 1, 65545, 262144, 0, 65538, 65536, 0, 65539, 65536, 0, 65540, 65536, 0, 65541, 65536, 0, 65542, 65536, 0, 65543, 65536, 0, 65544, 65536, 0)
+
+[node name="Ball" parent="." instance=ExtResource("3_1jnty")]
+position = Vector2(444, 418)
+collision_layer = 0
+collision_mask = 2
+
+[node name="Label" type="Label" parent="."]
+offset_left = 831.0
+offset_top = 70.0
+offset_right = 927.0
+offset_bottom = 97.0
+text = "SCORE:"
+script = ExtResource("4_muo70")
+
+[node name="level" parent="." instance=ExtResource("5_cxxxd")]
+position = Vector2(153, 8)
+scale = Vector2(0.195, 0.195)
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Enemy" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(962, 343)
+
+[node name="Enemy2" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(952, 250)
+
+[node name="Enemy3" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(850, 341)
+
+[node name="Enemy4" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(650, 536)
+
+[node name="Enemy5" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(640, 243)
+
+[node name="Enemy6" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(955, 527)
+
+[node name="Enemy7" parent="Enemies" groups=["ENEMIES"] instance=ExtResource("4_qurwo")]
+position = Vector2(802, 531)

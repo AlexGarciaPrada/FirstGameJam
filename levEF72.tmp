@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnxjxs74ww6y0"]
+
+[ext_resource type="Script" path="res://level.gd" id="1_7c412"]
+
+[node name="level" type="Node2D"]
+script = ExtResource("1_7c412")
+
+[node name="LevelCanva" type="Label" parent="."]
+offset_left = 303.0
+offset_top = 283.0
+offset_right = 407.0
+offset_bottom = 310.0
+scale = Vector2(4.18132, 5.34795)
+text = "LEVEL-"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+
+[node name="Label" type="Label" parent="."]
+offset_left = 776.0
+offset_top = 268.0
+offset_right = 880.0
+offset_bottom = 419.0
+scale = Vector2(0.781, 1)
+theme_override_font_sizes/font_size = 100

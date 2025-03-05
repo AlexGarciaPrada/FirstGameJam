@@ -1,0 +1,14 @@
+AudioStreamPlayer
+Node
+Label
+Camera2D
+Button
+Sprite2D
+CollisionShape2D
+Area2D
+Node2D
+RichTextLabel
+CharacterBody2D
+RigidBody2D
+TileMap
+GPUParticles2D

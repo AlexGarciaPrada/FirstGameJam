@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cuvv4s4l0gyhm"
+path="res://.godot/imported/Electronic Fantasy.ogg-d201760ba7997bd32c47219b5458b203.oggvorbisstr"
+
+[deps]
+
+source_file="res://Electronic Fantasy.ogg"
+dest_files=["res://.godot/imported/Electronic Fantasy.ogg-d201760ba7997bd32c47219b5458b203.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

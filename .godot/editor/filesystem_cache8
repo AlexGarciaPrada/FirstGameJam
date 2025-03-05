@@ -1,0 +1,95 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741191717
+ability_scene.gd::GDScript::-1::1741191381::0::1::::<>Node2D<>::
+ability_scene.tscn::PackedScene::8553756016683551826::1741191716::0::1::::<><>::uid://d3ilip2fi1c28::::res://New Piskel (5).png<>res://ability_scene.gd<>uid://doop70hxo4p5b::::res://New Piskel (6).png
+Arrow.png::CompressedTexture2D::6572775064320507051::1695147565::1741191296::1::::<><>::
+Ball.gd::GDScript::-1::1741191512::0::1::::<>CharacterBody2D<>::
+Ball.png::CompressedTexture2D::8638872985566033471::1694946016::1741191296::1::::<><>::
+ball.tscn::PackedScene::437607953036304053::1717064117::0::1::::<><>::res://Ball.gd<>uid://dvcy8gfpg0qqx::::res://Ball.png<>uid://c0v5v6vwvvyrr::::res://Arrow.png<>uid://ctwqhwuu51puc::::res://powerUp.wav<>uid://dmd1h8fyw1bx5::::res://hitHurt.wav
+Board.png::CompressedTexture2D::3587827304349405673::1694900051::1741191296::1::::<><>::
+BoardTexture.png::CompressedTexture2D::4592863271311058823::1694898704::1741191296::1::::<><>::
+BoardTextureDEf.png::CompressedTexture2D::6612830972018914650::1694899456::1741191296::1::::<><>::
+Demon.png::CompressedTexture2D::2238975288524559::1694976468::1741191296::1::::<><>::
+Electronic Fantasy.ogg::AudioStreamOggVorbis::6221298008606535354::1695574962::1741191296::1::::<><>::
+enemy.gd::GDScript::-1::1741191381::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::6622028559564473887::1741191716::0::1::::<><>::res://enemy.gd<>uid://cokk1jlalig87::::res://pixel ghost-1.png (1).png
+explosion.wav::AudioStreamWAV::6297179517749164136::1695577171::1741191297::1::::<><>::
+export_presets.cfg::TextFile::-1::1695582212::0::1::::<><>::
+Fine Draw.png::CompressedTexture2D::6328258125631624333::1694942054::1741191296::1::::<><>::
+finish_screen.tscn::PackedScene::729320311975348057::1741191716::0::1::::<><>::
+font_tacticalbit.png::CompressedTexture2D::3579709304590050243::1589387618::1741191296::1::::<><>::
+game_over.gd::GDScript::-1::1695565242::0::1::::<>Node2D<>::
+game_over.tscn::PackedScene::8945574585796659360::1717064117::0::1::::<><>::res://game_over.gd
+hitHurt.wav::AudioStreamWAV::8009314192482583712::1695567688::1741191297::1::::<><>::
+icon.svg::CompressedTexture2D::6518152072437898470::1694867561::1741191296::1::::<><>::
+Label.gd::GDScript::-1::1695134876::0::1::::<>Label<>::
+laserShoot.wav::AudioStreamWAV::6318045032773246662::1695567411::1741191297::1::::<><>::
+level.gd::GDScript::-1::1695577435::0::1::::<>Node2D<>::
+level.tscn::PackedScene::5733365545420680693::1741191717::0::1::::<><>::res://level.gd<>uid://dqipsepurmtc::::res://pickupCoin.wav
+LevelNumber.gd::GDScript::-1::1695134602::0::1::::<>Label<>::
+menu.gd::GDScript::-1::1695401420::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::8418442578991273234::1717064117::0::1::::<><>::res://menu.gd
+New Piskel (5).png::CompressedTexture2D::9141747698047222767::1695402468::1741191296::1::::<><>::
+New Piskel (6).png::CompressedTexture2D::8171776375827313185::1695402494::1741191296::1::::<><>::
+New Piskel (7).png::CompressedTexture2D::889361934509841530::1695402495::1741191296::1::::<><>::
+pickupCoin.wav::AudioStreamWAV::244110050138219744::1695577358::1741191297::1::::<><>::
+pixel ghost-1.png (1).png::CompressedTexture2D::5776783046146467274::1695046010::1741191296::1::::<><>::
+Player.gd::GDScript::-1::1741191381::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::4033747997065318351::1741191717::0::1::::<><>::res://Player.gd<>uid://bc41gokhv2n::::res://Demon.png<>uid://lhiwx0op7gxo::::res://Shield.png<>uid://cvynvkm8n0b2w::::res://explosion.wav<>uid://biixq84f02wbf::::res://SonidoShield.wav
+powerUp.wav::AudioStreamWAV::6152830866899360150::1695567801::1741191297::1::::<><>::
+Shield.png::CompressedTexture2D::787054195019384228::1695453366::1741191296::1::::<><>::
+singleton.gd::GDScript::-1::1741191381::0::1::::<>Node<>::
+SonidoShield.wav::AudioStreamWAV::2965873296697500359::1695577570::1741191297::1::::<><>::
+SquareEnemy.png::CompressedTexture2D::4829517443782347006::1694967329::1741191296::1::::<><>::
+SquarePlayer.png::CompressedTexture2D::304433883412052614::1694897892::1741191296::1::::<><>::
+tacticalbit.ttf::FontFile::4868594112640164824::1589387831::1741191296::1::::<><>::
+::res://ProceduralScenes/::1717065055
+Label2.gd::GDScript::-1::1695311577::0::1::::<>Label<>::
+scene1.tscn::PackedScene::5378775028416735503::1717064820::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene2.tscn::PackedScene::6868504725626527520::1717064820::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene3.tscn::PackedScene::1677794559084306143::1717064820::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene4.gd::GDScript::-1::1717064117::0::1::::<>Node2D<>::
+scene4.tscn::PackedScene::8890180887040543591::1717064820::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene5.tscn::PackedScene::8494821268300496355::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene6.tscn::PackedScene::2062655657412172817::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene7.tscn::PackedScene::1571353090264686416::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene8.tscn::PackedScene::4680055459173502301::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene9.tscn::PackedScene::998739473285270435::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene10.tscn::PackedScene::6332576544981869199::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene11.tscn::PackedScene::7879351278722057568::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene12.tscn::PackedScene::7572497336618089117::1717064821::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene13.tscn::PackedScene::2486043722144208691::1717064822::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene14.tscn::PackedScene::4324552823522618631::1717064822::0::1::::<><>::res://ProceduralScenes/scene4.gd<>uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene15.tscn::PackedScene::1585339636164636383::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene16.tscn::PackedScene::1247763998204327392::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene17.tscn::PackedScene::5727823906130071460::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene18.tscn::PackedScene::345511747406185934::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene19.tscn::PackedScene::1152336253761885748::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene20.tscn::PackedScene::1832407392726271082::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene21.tscn::PackedScene::3247688724916329018::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene22.tscn::PackedScene::1050013090346896036::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene23.tscn::PackedScene::4511351359866395075::1717064823::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene24.tscn::PackedScene::8836441040829368887::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene25.tscn::PackedScene::7366949796636510646::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene26.tscn::PackedScene::7991492755782218019::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene27.tscn::PackedScene::7549174622575525185::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene28.tscn::PackedScene::166448541675070502::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene29.tscn::PackedScene::4150844416204436999::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene30.tscn::PackedScene::1415555840873536959::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene31.tscn::PackedScene::7876656097316167274::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene32.tscn::PackedScene::7556234679165561768::1717064824::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene33.tscn::PackedScene::1006199372303246018::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene34.tscn::PackedScene::8773805331642073926::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene35.tscn::PackedScene::7955859331564132689::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene36.tscn::PackedScene::1627548458597940785::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene37.tscn::PackedScene::1154729586212715585::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene38.tscn::PackedScene::5997183231041307690::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene39.tscn::PackedScene::3129801733951157957::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene40.tscn::PackedScene::5654837177072322589::1717064825::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene41.tscn::PackedScene::5724744003722604486::1717064826::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene42.tscn::PackedScene::8633862833931481434::1717064826::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene43.tscn::PackedScene::606106180107399799::1717064826::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+scene44.tscn::PackedScene::6396197683224831330::1717064826::0::1::::<><>::uid://cwfpqsxtwyntt::::res://Fine Draw.png<>uid://gh8lr7ckner2::::res://ball.tscn<>uid://bxp8ifv11irbj::::res://Player.tscn<>res://ProceduralScenes/Score.gd<>uid://c1l03wm1kf6tv::::res://enemy.tscn<>uid://cnxjxs74ww6y0::::res://level.tscn
+Score.gd::GDScript::-1::1695201402::0::1::::<>Label<>::
+::res://Scripts/::1741191714
+BallArea2D.gd::GDScript::-1::1695115609::0::1::::<>Area2D<>::

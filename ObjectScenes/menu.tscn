@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr67rwluhbcgg"]
+
+[ext_resource type="Script" path="res://Scripts/menu.gd" id="1_iejq4"]
+
+[node name="menu" type="Node2D"]
+script = ExtResource("1_iejq4")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+
+[node name="Title" type="Label" parent="."]
+offset_left = 275.0
+offset_top = -5.0
+offset_right = 419.0
+offset_bottom = 22.0
+scale = Vector2(3.98611, 8.41191)
+text = "fIFA 2024"
+
+[node name="Play" type="Button" parent="."]
+offset_left = 467.0
+offset_top = 251.0
+offset_right = 535.0
+offset_bottom = 283.0
+scale = Vector2(2.16, 3.12)
+text = "Play"
+flat = true
+alignment = 2
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 476.0
+offset_top = 409.0
+offset_right = 536.0
+offset_bottom = 441.0
+scale = Vector2(2.20734, 2.72)
+text = "Exit"
+flat = true
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]

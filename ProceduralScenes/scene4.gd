@@ -10,7 +10,7 @@ func ItsUsed (integer:int):
 	return aux
 func nswitchscene():
 	if Singleton.number  % 3 == 0 and Singleton.number !=1:
-		get_tree().change_scene_to_file ("res://ability_scene.tscn")
+		get_tree().change_scene_to_file ("res://ObjectScenes/ability_scene.tscn")
 	else:
 		randomize()
 		nextscene = randi_range(1,11)
@@ -23,4 +23,5 @@ func nswitchscene():
 func _physics_process(delta):
 	if get_tree().get_nodes_in_group("ENEMIES").size() == 0:
 		Singleton.activation = false
+		Singleton.number+=1
 		nswitchscene()

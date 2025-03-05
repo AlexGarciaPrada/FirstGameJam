@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0pkkojh5qx7e"]
+
+[ext_resource type="Script" path="res://Scripts/game_over.gd" id="1_yfnw6"]
+
+[node name="Game Over" type="Node2D"]
+script = ExtResource("1_yfnw6")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+
+[node name="GameOver" type="Label" parent="."]
+offset_left = 212.0
+offset_top = 74.0
+offset_right = 360.0
+offset_bottom = 101.0
+scale = Vector2(5.005, 5.005)
+text = "GAME OVER"
+
+[node name="Retry" type="Button" parent="."]
+offset_left = 212.0
+offset_top = 472.0
+offset_right = 310.0
+offset_bottom = 504.0
+scale = Vector2(1.865, 1.865)
+text = "RETRY"
+flat = true
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 815.0
+offset_top = 473.0
+offset_right = 885.0
+offset_bottom = 505.0
+scale = Vector2(1.865, 1.865)
+text = "EXIT"
+flat = true
+
+[node name="FinalScore" type="Label" parent="."]
+offset_left = 411.0
+offset_top = 303.0
+offset_right = 451.0
+offset_bottom = 327.0
+scale = Vector2(2.5649, 2.5187)
+
+[connection signal="pressed" from="Retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
